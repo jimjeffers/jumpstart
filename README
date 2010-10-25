@@ -1,0 +1,8 @@
+A quick boiler plate I use on my projects. Includes:
+
+1. Latest version of my build script.
+2. Basic directory structure for simple front end projects.
+3. Javascript dependencies - jquery and modernizr.
+4. CSS dependencies - Eric Meyer Reset.
+
+To use just run ./build.rb and then write CSS and Coffee files in ./stylesheets and ./coffee to your heart's content. The build script is dumb and just follows @imports in your CSS. In coffee it just compiles any coffee file in the coffee directory in order of appearance. A smarter version of the build script will come in the form of a gem sometime to come.
